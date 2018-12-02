@@ -7,7 +7,7 @@ if(isset($_POST["fun"])){
 	if($fun=="回登入畫面"){
 		$_SESSION["success"]="no";
 		$_SESSION["fail"]="no";
-		header('Location:login.php');
+		header('Location:P8_search.php');
 		return 0;
 	}
 }
