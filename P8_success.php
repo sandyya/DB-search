@@ -22,7 +22,7 @@
             if ($result) {
                 // 返回資料筆數
                 $rowcount = mysqli_num_rows($result);
-                // echo var_dump($rowcount);
+                // printf("資料筆數 : %d", $rowcount);
                 if ($rowcount > 0) {
                     // 取得欄位數值
                     while ($rows = mysqli_fetch_array($result, MYSQLI_NUM)) {
@@ -38,17 +38,17 @@
                     mysqli_free_result($result);
                 }
                 else {
-                    header("Location:P8_fail.php");
+                    include("P8_fail.php");
                 }
             }
             else if ( mysqli_errno($link) != 0 ) {
-                header("Location:P8_fail.php");
+                include("P8_fail.php");
             }
 
             mysqli_close($link); // 關閉資料庫連接
         }
         else {
-            header("Location:P8_fail.php");  
+            include("P8_fail.php");
         }
     ?>
         <input type="submit" value="回到查詢畫面">

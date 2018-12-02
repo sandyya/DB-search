@@ -5,9 +5,9 @@
 <title>P8_search.php</title>
 </head>
 <body>
+    <h1>基本資料管理系統-查詢</h1>
+    <hr size="1px" align="center" width="100%">
     <form method="post" action="P8_success.php">
-        <h1>基本資料管理系統-查詢</h1>
-        <hr size="1px" align="center" width="100%">
         <input type="text" name="No">
         <br>
         <input type="submit" name="Query" value="查詢">
