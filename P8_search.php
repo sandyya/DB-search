@@ -9,7 +9,7 @@
     <hr size="1px" align="center" width="100%">
     <form method="post" action="P8_success.php">
         <input type="text" name="No">
-        <br>
+        <br><br>
         <input type="submit" name="Query" value="查詢">
         <input type="reset" value="清除">
     </form>
