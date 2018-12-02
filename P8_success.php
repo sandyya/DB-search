@@ -51,7 +51,7 @@
             include("P8_fail.php");
         }
     ?>
-        <input type="submit" value="回查詢畫面">
+        <input type="submit" value="回到查詢畫面">
         <hr size="1px" align="center" width="100%">
     </form>
 </body>
